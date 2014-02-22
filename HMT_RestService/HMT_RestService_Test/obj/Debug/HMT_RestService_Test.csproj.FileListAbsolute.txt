@@ -13,3 +13,6 @@ C:\Users\cpvarghese\Desktop\HMT_RestService\HMT_RestService_Test\bin\Debug\Syste
 C:\Users\cpvarghese\Desktop\HMT_RestService\HMT_RestService_Test\bin\Debug\Newtonsoft.Json.xml
 C:\Users\cpvarghese\Desktop\HMT_RestService\HMT_RestService_Test\obj\Debug\HMT_RestService_Test.dll
 C:\Users\cpvarghese\Desktop\HMT_RestService\HMT_RestService_Test\obj\Debug\HMT_RestService_Test.pdb
+C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestService_Test\obj\Debug\HMT_RestService_Test.csprojResolveAssemblyReference.cache
+C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestService_Test\obj\Debug\HMT_RestService_Test.dll
+C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestService_Test\obj\Debug\HMT_RestService_Test.pdb

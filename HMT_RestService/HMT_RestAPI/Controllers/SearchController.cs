@@ -20,10 +20,10 @@ namespace HMT_RestAPI.Controllers
 		{
 			_churchRepository = churchRepository;
 		}
-
-		public List<Church> GetChurches(string searchText)
+		
+		public IEnumerable<Church> GetChurches(string searchText)
 		{
-			List<Church> churches = _churchRepository.GetChurches(searchText);
+			IEnumerable<Church> churches = _churchRepository.GetChurches(searchText);
 
 			return churches;
 		}
