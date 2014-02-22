@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMT_RestAPI", "HMT_RestAPI\HMT_RestAPI.csproj", "{E99740AB-1F51-4F74-9DFA-36A88613053D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMT_RestService_Test", "HMT_RestService_Test\HMT_RestService_Test.csproj", "{088D0BC5-67EC-45C9-B9AA-526305F352C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E99740AB-1F51-4F74-9DFA-36A88613053D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99740AB-1F51-4F74-9DFA-36A88613053D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99740AB-1F51-4F74-9DFA-36A88613053D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99740AB-1F51-4F74-9DFA-36A88613053D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088D0BC5-67EC-45C9-B9AA-526305F352C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088D0BC5-67EC-45C9-B9AA-526305F352C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088D0BC5-67EC-45C9-B9AA-526305F352C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088D0BC5-67EC-45C9-B9AA-526305F352C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
