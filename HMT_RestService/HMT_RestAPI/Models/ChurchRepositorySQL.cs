@@ -9,7 +9,15 @@ namespace HMT_RestAPI.Models
 	{
 		public List<Church> GetChurches(string searchText)
 		{
-			return new List<Church>();
+			List<Church> churches = new List<Church>();
+			churches.Add(
+				new Church() { Name = "St.George Church Moolamattom", State = "Kerala" }
+				);
+			churches.Add(
+				new Church() { Name = "St.Sebastians Church Neyyassery", State = "Kerala" }
+				);
+
+			return churches;
 		}
 	}
 }

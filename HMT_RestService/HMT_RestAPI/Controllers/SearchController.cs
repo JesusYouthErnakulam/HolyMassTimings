@@ -21,7 +21,7 @@ namespace HMT_RestAPI.Controllers
 			_churchRepository = churchRepository;
 		}
 		
-		public IEnumerable<Church> GetChurches(string searchText)
+		public IEnumerable<Church> GetChurches([FromUri]string searchText)
 		{
 			IEnumerable<Church> churches = _churchRepository.GetChurches(searchText);
 

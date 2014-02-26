@@ -20,6 +20,5 @@ C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestAPI\obj\De
 C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestAPI\obj\Debug\HMT_RestAPI.pdb
 C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestAPI\bin\System.Net.Http.Formatting.dll
 C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestAPI\bin\System.Net.Http.Formatting.xml
-C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestAPI\obj\Debug\HMT_RestAPI.csprojResolveAssemblyReference.cache
 C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestAPI\bin\Newtonsoft.Json.dll
 C:\Users\cpvarghese\Desktop\Holy Mass Timings\HMT_RestService\HMT_RestAPI\bin\Newtonsoft.Json.xml

@@ -17,21 +17,21 @@
       <![endif]-->
       
   </head>
-  <body>
-
+  <body ng-app>
+  <form ng-controller="ChurchController" novalidate>
   	<div class="col-lg-5" style="padding:10px">
   		<div class="well">
   			<div class="form-group row">          
   				<div class="col-lg-10">
-  					<input id="txtSearch" type="text" class="form-control" placeholder="Enter location, church name here"/>
+  					<input id="txtSearch" type="text" class="form-control" placeholder="Enter location, church name here" ng-required="true"/>
   				</div>
   				<div>
-  					<button id="btnSearch" class="btn btn-primary">Search</button>
+  					<button id="btnSearch" class="btn btn-primary" ng-click="GetChurches()">Search</button>
   				</div>
   			</div>
   		</div>
   	</div>
-
+</form>
   	<!-- Search result here -->
   	<div style="width:50%; padding:10px">
   		<table class="table table-striped table-bordered">
@@ -49,6 +49,8 @@
   			</tbody>
   		</table>
   	</div>
+ 		
+  	
 
   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -56,11 +58,19 @@
   	<script src="Scripts/bootstrap.min.js"></script>
   	<script src="Scripts/angular.js"></script>
   	<script type="text/javascript">
-  	$(function(){
-  		$('#btnSearch').click(function(){
-  			$.getJSON('http://localhost:53456/api/Search', function(data){});
-  		})
-  	});
+
+function ChurchController($scope, $http)
+{
+	$scope.GetChurches = function()
+	{
+		$http.get('http://localhost:53456/api/Search/Churches').success(function(data, status, headers, config) {
+       		alert('got a 200 response');
+     	});
+	};
+	
+}
+
+
   	</script>
 
   </body>
